@@ -7,7 +7,10 @@
   padding: 5px;
   border-radius: 10px;
   font-family: monospace;
+  display: flex;
+  flex-wrap: wrap;
 }
+
 .contact {
   background-color: #f3f3f3;
   border-radius: 10px;
@@ -15,7 +18,9 @@
   padding: 20px;
   margin: 15px;
   width: 400px;
+  display: flex;
 }
+
 .photo {
   width: 120px;
   height: 120px;
@@ -26,12 +31,16 @@
 .info {
   margin-left: 20px;
 }
+
 .info p {
   font-size: 22px;
 }
 
 .buttons {
   padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .call,
